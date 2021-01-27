@@ -25,7 +25,7 @@ variable "admin_enabled" {
 
 variable "georeplication_locations" {
   default = []
-  description = "list of the regions for replication ex ["East US", "West US"]"
+  description = "list of the regions for replication ex ["East US", "West US"] "
 }
 
 variable "network_rule_set" {
